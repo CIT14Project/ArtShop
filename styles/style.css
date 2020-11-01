@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  font-family: "Baskervville", serif;
+}
+
+.navBar {
+  width: 1440px;
+  height: 100px;
+  background: #141414;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.navBar ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.navBar ul li {
+  display: inline;
+  width: 33.33%;
+  text-align: center;
+}
+.navBar ul li a {
+  text-decoration: none;
+  color: #717367;
+  font-size: 2rem;
+}
+.navBar ul li a:hover {
+  text-decoration: underline;
+}
