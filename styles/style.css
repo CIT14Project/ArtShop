@@ -25,6 +25,7 @@ html {
   display: inline;
   width: 33.33%;
   text-align: center;
+  list-style-type: none;
 }
 .navBar ul li a {
   text-decoration: none;
