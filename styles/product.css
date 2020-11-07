@@ -58,7 +58,7 @@
 .buy-now {
   margin: 1vh 1rem;
   padding: 1vh 0;
-  width: 50%;
+  width: 100%;
   border: 1px solid;
   transition: 0.3s;
 }
