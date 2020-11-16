@@ -44,10 +44,11 @@
 .color-option {
   padding: 0 rem;
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 .quantity-option {
   display: flex;
+  justify-content: center;
 }
 .quantity-input {
   width: 3rem;
