@@ -38,7 +38,11 @@ header
   background-size: cover;
   background-position:center center; 
 }
-
+.banner-area:hover
+{
+  opacity: 0.3;
+  transition: 0.5s;
+}
 .banner-area h2
 {
   padding-top: 250px;
