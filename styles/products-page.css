@@ -37,7 +37,11 @@
 }
 
 /* catalog */
-
+.catalog img
+{
+  position: right;
+  padding-left: 25px;
+}
 .catalog {
   display: flex;
   flex-direction: column;
