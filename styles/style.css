@@ -6,56 +6,49 @@
   padding: 0;
   box-sizing: border-box;
 }
-body
-{
-  text-align:center;
+body {
+  text-align: center;
 }
-.wrapper
-{
+.wrapper {
   widows: 1170px;
   margin: 0 auto;
 }
 
-header
-{
+header {
   height: 100px;
   background: #262626;
   width: 100%;
   z-index: 12;
   position: fixed;
 }
-*{
+* {
   box-sizing: border-box;
 }
 
-.banner-area
-{
+.banner-area {
   width: 100%;
   height: 800px;
   position: fixed;
   top: 100px;
   background-image: url(../Images/sketchbook.jpg);
   background-size: cover;
-  background-position:center center; 
+  background-position: center center;
 }
-.banner-area:hover
-{
+.banner-area:hover {
   opacity: 0.3;
   transition: 0.5s;
 }
-.banner-area h2
-{
+.banner-area h2 {
   padding-top: 250px;
   font-size: 70px;
   position: fixed;
   left: 100px;
   font-family: "Brush Script STD";
-  text-emphasis: upppercase; 
+  text-emphasis: upppercase;
   color: #717367;
 }
 
-.banner-area h3
-{
+.banner-area h3 {
   padding-top: 350px;
   /*font-size: 45px;*/
   padding-right: 700px;
@@ -68,8 +61,7 @@ header
 
 /*----------PENCILS----------*/
 
-.content-area 
-{
+.content-area {
   width: 100%;
   position: relative;
   top: 700px;
@@ -77,11 +69,9 @@ header
   height: 1600px;
   background-image: url(../Images/2.jpg);
   background-repeat: no-repeat;
-
 }
 
-.content-area h2 
-{
+.content-area h2 {
   top: 100px;
   font-family: "Brush Script STD";
   color: #717367;
@@ -89,10 +79,8 @@ header
   position: relative;
   padding-right: 350px;
   text-align-last: right;
-
 }
-.content-area p
-{
+.content-area p {
   top: 110px;
   font-family: "Baskerville";
   color: #717367;
@@ -104,8 +92,7 @@ header
 }
 /*----------BUTTON----------*/
 
-.btn1
-{
+.btn1 {
   width: 150px;
   height: 50px;
   border-radius: 15px;
@@ -117,32 +104,27 @@ header
   right: 375px;
 }
 
-.btn1:hover
-{
-  background-color:rgb(247, 185, 110) /*#717367*/;
+.btn1:hover {
+  background-color: rgb(247, 185, 110) /*#717367*/;
   opacity: 0.5;
   transition: 0.5s;
 }
 
-.btn1
-{
+.btn1 {
   font-family: "Baskerville";
   color: #717367;
   font-size: 20px;
   letter-spacing: 2px;
 }
 
-
 /*----------PENS----------*/
-.pens img
-{
+.pens img {
   background: #ffff;
   top: 20%;
   position: absolute;
   left: 700px;
 }
-.pens h2
-{
+.pens h2 {
   top: 350px;
   font-family: "Brush Script STD";
   color: #717367;
@@ -152,8 +134,7 @@ header
   padding-right: 700px;
   text-align-last: right;
 }
-.pens p
-{
+.pens p {
   top: 350px;
   font-family: "Baskerville";
   color: #717367;
@@ -166,8 +147,7 @@ header
 }
 /*----------BUTTON----------*/
 
-.btn2
-{
+.btn2 {
   width: 150px;
   height: 50px;
   border-radius: 15px;
@@ -179,49 +159,42 @@ header
   right: 340px;
 }
 
-.btn2:hover
-{
+.btn2:hover {
   background-color: rgb(247, 185, 110);
   opacity: 0.5;
   transition: 0.5s;
 }
 
-.btn2
-{
+.btn2 {
   font-family: "Baskerville";
   color: #717367;
   font-size: 20px;
   letter-spacing: 2px;
 }
 
-.pic1 img
-{
+.pic1 img {
   position: absolute;
   top: 815px;
   left: 0.5px;
   opacity: 0.3;
 }
 
-.pic2 img
-{
+.pic2 img {
   position: absolute;
   top: 990px;
   right: 1px;
   opacity: 0.3;
 }
-html 
-{
+html {
   font-size: 16px;
   font-family: "Baskerville", serif;
 }
-a
-{
+a {
   text-decoration: none;
   color: #717367;
 }
 
-.quote h3
-{
+.quote h3 {
   top: 1000px;
   font-family: "Brush Script STD";
   color: #717367;
@@ -231,8 +204,7 @@ a
   right: 250px;
   letter-spacing: 3px;
 }
-.quote p
-{
+.quote p {
   top: 900px;
   font-family: "Baskerville";
   color: #717367;
@@ -262,42 +234,12 @@ a
 .navBar ul li a {
   font-size: 2rem;
 }
-.navBar ul li a:hover
-{
-   
+.navBar ul li a:hover {
   text-decoration: underline;
 }
 
 /* footer */
 
-footer {
-  width: 100vw;
-  position: absolute;
-  display: flex;
-  align-items: flex-end;
-  background-color: #141414;
-  top: 2215px;
-}
-footer ul {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 2rem 5rem;
-}
-footer ul li {
-  list-style-type: none;
-  color: #8c8c8c;
-  padding: 0 5rem;
-}
-footer ul li a {
-  text-decoration: none;
-  color: #8c8c8c;
-  font-size: 1.2rem;
-}
-footer ul li a:hover {
-  text-decoration: underline;
-  color: white;
-}
 @import "products-page.css";
 @import "product.css";
 * {
@@ -305,52 +247,46 @@ footer ul li a:hover {
   padding: 0;
   box-sizing: border-box;
 }
-body
-{
-  text-align:center;
+body {
+  text-align: center;
 }
-.wrapper
-{
+.wrapper {
   widows: 1170px;
   margin: 0 auto;
 }
 
-header
-{
+header {
   height: 100px;
   background: #262626;
   width: 100%;
   z-index: 12;
   position: fixed;
 }
-*{
+* {
   box-sizing: border-box;
 }
 
-.banner-area
-{
+.banner-area {
   width: 100%;
   height: 800px;
   position: fixed;
   top: 100px;
   background-image: url(../Images/sketchbook.jpg);
   background-size: cover;
-  background-position:center center; 
+  background-position: center center;
 }
 
-.banner-area h2
-{
+.banner-area h2 {
   padding-top: 250px;
   font-size: 70px;
   position: fixed;
   left: 100px;
   font-family: "Brush Script STD";
-  text-emphasis: upppercase; 
+  text-emphasis: upppercase;
   color: #717367;
 }
 
-.banner-area h3
-{
+.banner-area h3 {
   padding-top: 350px;
   /*font-size: 45px;*/
   padding-right: 700px;
@@ -363,8 +299,7 @@ header
 
 /*----------PENCILS----------*/
 
-.content-area 
-{
+.content-area {
   width: 100%;
   position: relative;
   top: 700px;
@@ -372,11 +307,9 @@ header
   height: 1600px;
   background-image: url(../Images/2.jpg);
   background-repeat: no-repeat;
-
 }
 
-.content-area h2 
-{
+.content-area h2 {
   top: 100px;
   font-family: "Brush Script STD";
   color: #717367;
@@ -384,10 +317,8 @@ header
   position: relative;
   padding-right: 350px;
   text-align-last: right;
-
 }
-.content-area p
-{
+.content-area p {
   top: 110px;
   font-family: "Baskerville";
   color: #717367;
@@ -399,8 +330,7 @@ header
 }
 /*----------BUTTON----------*/
 
-.btn1
-{
+.btn1 {
   width: 150px;
   height: 50px;
   border-radius: 15px;
@@ -412,32 +342,27 @@ header
   right: 375px;
 }
 
-.btn1:hover
-{
-  background-color:rgb(247, 185, 110) /*#717367*/;
+.btn1:hover {
+  background-color: rgb(247, 185, 110) /*#717367*/;
   opacity: 0.5;
   transition: 0.5s;
 }
 
-.btn1
-{
+.btn1 {
   font-family: "Baskerville";
   color: #717367;
   font-size: 20px;
   letter-spacing: 2px;
 }
 
-
 /*----------PENS----------*/
-.pens img
-{
+.pens img {
   background: #ffff;
   top: 20%;
   position: absolute;
   left: 700px;
 }
-.pens h2
-{
+.pens h2 {
   top: 350px;
   font-family: "Brush Script STD";
   color: #717367;
@@ -447,8 +372,7 @@ header
   padding-right: 700px;
   text-align-last: right;
 }
-.pens p
-{
+.pens p {
   top: 350px;
   font-family: "Baskerville";
   color: #717367;
@@ -461,8 +385,7 @@ header
 }
 /*----------BUTTON----------*/
 
-.btn2
-{
+.btn2 {
   width: 150px;
   height: 50px;
   border-radius: 15px;
@@ -474,49 +397,42 @@ header
   right: 340px;
 }
 
-.btn2:hover
-{
+.btn2:hover {
   background-color: rgb(247, 185, 110);
   opacity: 0.5;
   transition: 0.5s;
 }
 
-.btn2
-{
+.btn2 {
   font-family: "Baskerville";
   color: #717367;
   font-size: 20px;
   letter-spacing: 2px;
 }
 
-.pic1 img
-{
+.pic1 img {
   position: absolute;
   top: 815px;
   left: 0.5px;
   opacity: 0.3;
 }
 
-.pic2 img
-{
+.pic2 img {
   position: absolute;
   top: 990px;
   right: 1px;
   opacity: 0.3;
 }
-html 
-{
+html {
   font-size: 16px;
   font-family: "Baskerville", serif;
 }
-a
-{
+a {
   text-decoration: none;
   color: #717367;
 }
 
-.quote h3
-{
+.quote h3 {
   top: 1000px;
   font-family: "Brush Script STD";
   color: #717367;
@@ -526,8 +442,7 @@ a
   right: 250px;
   letter-spacing: 5px;
 }
-.quote p
-{
+.quote p {
   top: 900px;
   font-family: "Baskerville";
   color: #717367;
@@ -557,15 +472,13 @@ a
 .navBar ul li a {
   font-size: 2rem;
 }
-.navBar ul li a:hover
-{
-   
+.navBar ul li a:hover {
   text-decoration: underline;
 }
 
 /* footer */
 
-footer {
+.homeFooter {
   width: 100vw;
   position: absolute;
   display: flex;
@@ -573,24 +486,50 @@ footer {
   background-color: #141414;
   top: 2215px;
 }
-footer ul {
+.homeFooter ul {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 2rem 5rem;
 }
-footer ul li {
+.homeFooter ul li {
   list-style-type: none;
   color: #8c8c8c;
   padding: 0 5rem;
 }
-footer ul li a {
+.homeFooter ul li a {
   text-decoration: none;
   color: #8c8c8c;
   font-size: 1.2rem;
+}
+.homeFooter ul li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+/* footer */
+
+footer {
+  width: 100vw;
+  background-color: #141414;
+}
+footer ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+footer ul li {
+  list-style-type: none;
+  color: #8c8c8c;
+  padding: 0 5vw;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #8c8c8c;
+  width: 100%;
 }
 footer ul li a:hover {
   text-decoration: underline;
   color: white;
 }
-

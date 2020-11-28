@@ -2,46 +2,59 @@
 /* filter part of the page*/
 .filter {
   display: flex;
-  justify-content: space-around;
   width: 100vw;
-  padding: 2rem 12rem;
+  padding: 2rem 0;
+  height: 8rem;
 }
 .filter ul {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 50%;
+  flex-direction: row;
 }
 .filter ul li {
   list-style-type: none;
-  padding: 0 1vw;
+  width: 15vw;
+  height: 100%;
+  transition: 0.2s;
+  font-size: 1.2rem;
+  color: #717367;
+}
+.filterText {
+  margin-top: calc(8rem / 3);
+}
+.filter ul li:hover {
+  font-size: x-large;
+}
+.filter ul li:hover > ul {
+  display: block;
+}
+.filter ul li ul {
+  display: none;
+  margin: 10px 0;
+  font-size: 15px;
+  position: absolute;
+}
+.filter ul li ul li:hover {
+  font-size: large;
+  border: solid #717367 1px;
 }
 .search-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  width: 75vw;
+  padding: 0 5vw;
 }
 .searchBar {
   font-family: "Baskervville", serif;
   font-size: 1.2rem;
-  padding: 1rem;
+  padding: 1rem 5vw;
   border-radius: 1rem;
   width: 100%;
   border-color: #717367;
   border-width: 1px;
 }
-.filterText {
-  font-size: 1.2rem;
-  color: #717367;
-  padding: 0 5rem;
-}
 
 /* catalog */
-.catalog img
-{
-  position: right;
-  padding-left: 25px;
-}
+
 .catalog {
   display: flex;
   flex-direction: column;
@@ -71,6 +84,7 @@
   height: 100%;
   transition: 0.3s;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .catalog-box:hover {
@@ -78,7 +92,8 @@
 }
 .catalog-image {
   opacity: 1;
-  width: 90%;
+  height: 90%;
+  width: auto;
   transition: 0.3s ease;
   backface-visibility: hidden;
 }
@@ -90,9 +105,7 @@
   font-size: 1.5rem;
   margin-top: 1rem;
 }
-.product-texture {
-  font-size: 1.2rem;
-}
+.product-texture,
 .product-size {
   font-size: 1.2rem;
 }
@@ -103,44 +116,17 @@
 
 @media (max-width: 850px) {
   .catalog {
-    padding: 0 1vw;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
   }
   .catalog ul {
     display: flex;
     flex-direction: column;
+    margin: 40rem 0;
   }
   .catalog ul li {
     width: 100%;
-    margin-top: 1rem;
+    height: 100%;
+    padding-bottom: 10rem;
   }
-}
-
-/* footer */
-
-footer {
-  width: 100vw;
-  display: flex;
-  align-items: flex-end;
-  background-color: #141414;
-}
-footer ul {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 2rem 5rem;
-}
-footer ul li {
-  list-style-type: none;
-  color: #8c8c8c;
-  padding: 0 1vw;
-}
-footer ul li a {
-  text-decoration: none;
-  color: #8c8c8c;
-  font-size: 1.2rem;
-}
-footer ul li a:hover {
-  text-decoration: underline;
-  color: white;
 }
