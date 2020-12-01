@@ -89,3 +89,9 @@
 .related-products {
   height: 100%;
 }
+
+#buy-now-button,
+.add-to-cart {
+  all: unset;
+  color: #717367;
+}
